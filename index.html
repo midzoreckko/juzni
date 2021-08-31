@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CSS Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+<ul class="topnav" id="dropdownClick">
+    <li><a href="#home"><b>Home</b></a></li>
+    <li><a href="#news"><b>News</b></a></li>
+    <li><a href="#contact"><b>Contact</b></a></li>
+    <li><a href="#about"><b>About</b></a></li>
+    <li class="topnav-right"><b></b><a href="#signin"><b>Sign Up</b></a></li>
+    <li class="topnav-right"><b></b><a href="#signup"><b>Sign In</b></a></li>
+    <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+</ul>
+
+    </nav>
+
+    <div class="container" id="section-1-gradient">
+        <div class="row">
+            <div class="col-6">
+              <div class="leftSide-col">
+                  <h1 class="large">Crazy Radness</h1>
+                  <h1 class="large">Made for Developers</h1>
+              </div>
+              <form>
+                  <div class="leftSide-col">
+                      <h2>Username</h2>
+                      <input class="inputbox" name="username" type="text" 
+                      placeholder="Username">
+                      <h2>Password</h2>
+                      <input class="inputbox" name="password" type="text" 
+                      placeholder="Password">
+                  </div>
+              </form>
+            </div>
+            <div class="col-6">
+                 <div class="rightSide-col">
+                     <div class="videoContainer">
+                   <iframe width="560" height="315"
+                   src="https://www.youtube.com/embed/8McL3RNwaDY" title="YouTube video player"
+                   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                   allowfullscreen></iframe></div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+     
+
+<script>
+    function dropdownMenu() {
+        var x = document.getElementById("dropdownClick");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+            /* ### change topnav to topnav.responsive ### */
+        }   else {
+                x.className = "topnav";
+            
+        }
+
+    }
+</script>
+
+</body>
+</html>
+</html>
