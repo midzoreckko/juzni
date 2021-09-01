@@ -157,10 +157,11 @@ input[type="text"] {
     div.leftSide-col,
     div.rightSide-col {
         margin: 15%;
+       
     }
 
   input [type="text"] {
-      width: 350px;
+      max-width: 100%;
   }
 
     .videoContainer iframe {
