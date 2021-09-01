@@ -4,10 +4,13 @@ header,
 footer {
     display: block;
 }
-
+html, body {
+    overflow-x: hidden;
+  }
 body{
     line-height: 1;
     margin: 0;
+    position: relative;
 }
 
 .container {
@@ -161,7 +164,7 @@ input[type="text"] {
     }
 
   input [type="text"] {
-      max-width: 100%;
+      width: 350px%;
   }
 
     .videoContainer iframe {
