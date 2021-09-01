@@ -114,7 +114,7 @@ form h2 {
 
 input[type="text"] {
     font-size: 20px;
-    width: 400px;
+    width: 350px;
     min-width: 100px;
     padding: 5px;
     border-radius: 7px;
@@ -164,9 +164,11 @@ input[type="text"] {
     }
 
   input [type="text"] {
-      width: 350px%;
+      width: 350px;
+      
   }
 
+ 
     .videoContainer iframe {
         position: relative;
         width: 100%;
