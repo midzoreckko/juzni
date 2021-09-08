@@ -13,6 +13,16 @@ body{
     position: relative;
 }
 
+label {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.2;
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -45,6 +55,10 @@ body{
 .col-10{width: 83,33%;}
 .col-11{width: 91.66%;}
 .col-12{width: 100%;}
+
+* {
+    box-sizing: border-box;
+}
 
  /* ##################### Nav bar ######################### */
 
@@ -92,6 +106,38 @@ ul.topnav li.dropdownIcon {
 #section-1-gradient {
 background: linear-gradient(#1f1f14, #003300);}
 
+div.box {
+    text-align: center;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15),
+       0 2px 3px 0 rgba(0,0,0,.1);
+
+}
+
+button {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #003300;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+button.learnMore {
+    display: block;
+    margin: auto;
+}
+
+div.icon {
+    width: 100%;
+}
+
 div.leftSide-col {
     margin-left: 30%;
 }
@@ -121,13 +167,14 @@ input[type="text"] {
     width: 100%;
 }
 
+
 /* #################### Mobile ############################# */
 
 @media screen and (max-width: 680px) {
     ul.topnav li:not(:nth-child(1)) {
         display: none;
     }
-
+    
     ul.topnav li.dropdownIcon {
         display: block;
         float: right;
@@ -153,9 +200,17 @@ input[type="text"] {
         text-align: left;
     }
 
-    .col-6 {
+    
+
+    .col-6,
+    .col-4 {
         width: 100%;
         margin: 0;
+    }
+
+    div.box {
+        padding: 5px;
+        display: block;
     }
 
     div.leftSide-col,
@@ -169,7 +224,8 @@ input[type="text"] {
       
   }
 
- 
+
+
     .videoContainer iframe {
         position: relative;
         width: 100%;
@@ -178,4 +234,9 @@ input[type="text"] {
         
         
     }
+    
+}
+h1.section2Header {
+    font-size: 45px;
+    text-align: center;
 }
