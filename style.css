@@ -214,6 +214,14 @@ input[type="text"] {
     }
 
 
+    div.bek {
+        text-align: center;
+        background-image: url("https://image.shutterstock.com/image-vector/abstract-wireframe-background-3d-grid-260nw-2002640273.jpg");
+        width: 100%;
+        
+    }
+
+
 /* #################### Mobile ############################# */
 
 @media screen and (max-width: 680px) {
