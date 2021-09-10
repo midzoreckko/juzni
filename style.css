@@ -23,6 +23,11 @@ p {
     line-height: 1.2;
 }
 
+article p {
+    font-size: 35px;
+    padding: 20px;
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -117,6 +122,16 @@ div.box {
 
 }
 
+div.lizzIcon img {
+    display: block;
+    margin: auto;
+    box-shadow: -2px/* hor */ -2px/* ver */ 20px/* blr */ 2px/* sprd */
+    rgba(0/* shdw */,0/* bcgcol */,0/* bxcol */,.15/* opct */
+    ), 2px 2px 17px 2px rgba(0,0,0,1);
+}
+
+
+
 button {
     font-size: 32px;
     font-weight: 700;
@@ -167,6 +182,37 @@ input[type="text"] {
     width: 100%;
 }
 
+.videoContainer iframe {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        
+        
+    }
+
+    footer.footsy {
+        background-color: #1f1f14;
+        padding-left: 10%;
+    }
+
+    footer.footsy h1 {
+        color: #999966;
+        font-size: 35px;
+    }
+
+    footer.footsy ul {
+        list-style: none;
+        text-align: left;
+        padding-left: 0;
+    }
+
+    footer.footsy ul li {
+        color: #999966;
+        font-size: 21px;
+        line-height: 1.5;
+    }
+
 
 /* #################### Mobile ############################# */
 
@@ -199,18 +245,38 @@ input[type="text"] {
         display: block;
         text-align: left;
     }
-
     
+    article p {
+        font-size: 25px;  
+    }
 
     .col-6,
-    .col-4 {
+    .col-4,
+    .col-7,
+    .col-5 {
         width: 100%;
         margin: 0;
     }
 
+
+    div.mobileStack {
+        width: 50%;
+        display: block;
+    }
+
+
     div.box {
         padding: 5px;
         display: block;
+    }
+
+    div.lizzIcon {
+        margin: 10px;
+    }
+
+    div.lizzIcon img {
+        width: 100%;
+        
     }
 
     div.leftSide-col,
@@ -240,3 +306,4 @@ h1.section2Header {
     font-size: 45px;
     text-align: center;
 }
+
