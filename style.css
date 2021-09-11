@@ -11,7 +11,8 @@ body{
     line-height: 1;
     margin: 0;
     position: relative;
-}
+    background: linear-gradient(#1f1f14, #003300, #1f1f14);}
+
 
 label {
     font-size: 25px;
@@ -108,17 +109,16 @@ ul.topnav li.dropdownIcon {
 
 /* ##################### Custom Styles ######################### */
 
-#section-1-gradient {
-background: linear-gradient(#1f1f14, #003300);}
+/* #section-1-gradient {
+background: linear-gradient(#1f1f14, #003300);} */
 
 div.box {
     text-align: center;
     margin: 24px;
     padding: 36px 24px 40px 24px;
     border-radius: 7px;
-    background-color: #fff;
-    box-shadow: 0 0 0 1px rgba(0,0,0,.15),
-       0 2px 3px 0 rgba(0,0,0,.1);
+    background-color: #1f1f14;
+ 
 
 }
 
@@ -135,8 +135,8 @@ div.lizzIcon img {
 button {
     font-size: 32px;
     font-weight: 700;
-    color: #fff;
-    background-color: #003300;
+    color: rgb(14, 3, 3);
+    background-color: #1f1f14;
     padding: 15px 60px;
     display: block;
     text-align: center;
@@ -213,13 +213,18 @@ input[type="text"] {
         line-height: 1.5;
     }
 
-
-    div.bek {
-        text-align: center;
-        background-image: url("https://image.shutterstock.com/image-vector/abstract-wireframe-background-3d-grid-260nw-2002640273.jpg");
-        width: 100%;
-        
+    div.box {
+        box-shadow: 3px -3px 21px 0px rgba(245,178,10,1);
     }
+
+
+
+    /* div.bek {
+        text-align: center;
+        background-image: url("https://picsum.photos/1280/150?grayscale");
+        width: 100%;
+        background-repeat: no-repeat;
+    } */
 
 
 /* #################### Mobile ############################# */
@@ -256,6 +261,7 @@ input[type="text"] {
     
     article p {
         font-size: 25px;  
+
     }
 
     .col-6,
@@ -276,6 +282,7 @@ input[type="text"] {
     div.box {
         padding: 5px;
         display: block;
+        
     }
 
     div.lizzIcon {
@@ -309,6 +316,10 @@ input[type="text"] {
         
     }
     
+    h1.section2Header {
+        font-size: 45px;
+        text-align: center;
+    }
 }
 h1.section2Header {
     font-size: 45px;
