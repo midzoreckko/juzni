@@ -125,9 +125,8 @@ div.box {
 div.lizzIcon img {
     display: block;
     margin: auto;
-    /* box-shadow: -2px/* hor */ -2px/* ver */ 20px/* blr */ 2px/* sprd */
-    rgba(0/* shdw */,0/* bcgcol */,0/* bxcol */,.15/* opct */
-    ), 2px 2px 17px 2px rgba(0,0,0,1); */
+    /* box-shadow: -2px -2px 20px 2px
+    rgba(0 ,0 ,0, .15), 2px 2px 17px 2px rgba(0,0,0,1); */
 }
 
 
@@ -223,6 +222,20 @@ input[type="text"] {
         justify-content: center;
     }
 
+    #megiKont {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        text-decoration: none;
+    }
+
+    .mehmed b {
+        color: #fff;
+        text-decoration: none;
+        font-size: 3em;
+    }
+
 
     .kontejner {
         position: relative;
@@ -267,6 +280,11 @@ input[type="text"] {
     .imageOverlay:hover > * {
         transform: translateY(0px);
     }
+
+   
+
+   
+
 
 
 
@@ -370,11 +388,11 @@ input[type="text"] {
     h1.section2Header {
         font-size: 45px;
         text-align: center;
+        text-shadow: 2px #999966;
     }
 }
 h1.section2Header {
     font-size: 45px;
     text-align: center;
-    text-shadow: 1px #999966
-   
+    text-shadow: 3px #999966;
 }
