@@ -229,6 +229,8 @@ input[type="text"] {
         width: 400px;
         display: flex;
         margin: 5px;
+        border: outset 3px rgba(245,178,10,1);
+        margin-bottom: 20px;
     }
 
     .image_img {
@@ -248,10 +250,22 @@ input[type="text"] {
         align-items: center;
         justify-content: center;
         opacity: 0;
+        transition: opacity 0.25s;
+    }
+
+    .imageOverlay > * {
+        transform: translateY(20px);
+        transition: transform 0.25s;
+    }
+    .imagOvarlay--blur{
+        backdrop-filter: blur(5px);
     }
 
     .imageOverlay:hover{
         opacity: 1;
+    }
+    .imageOverlay:hover > * {
+        transform: translateY(0px);
     }
 
 
